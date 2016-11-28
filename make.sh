@@ -8,7 +8,7 @@ cd $app
 git init
 heroku create
 echo '{}' > composer.json;
-echo '<html><b>Hellow World!!</b> Yes we can!!</html>' > index.html
+echo '<p><b>Hellow World!!</b> Yes we can!!</p>' > index.html
 git add .
 git commit -a -m first
 git push heroku master
